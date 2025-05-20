@@ -38,22 +38,29 @@ Pydantic is a data validation and settings management library.
 
 ## Project Structure
 project/
-├── app/
-│   └── __init__.py
-├── model/
+├── app/                        # Main app module
+│   └── __init__.py             # Makes app a package
+│
+├── model/                      # Pydantic models
 │   ├── model.py
-│   └── *_model.py
-├── router/
-│   ├── router.py
-│   └── *_router.py
-├── controller/
+│   └── *_model.py              # e.g., user_model.py, product_model.py
+│
+├── controller/                 # Business logic / service layer
 │   ├── controller.py
-│   └── *_controller.py
-├── database/
+│   └── *_controller.py         # e.g., user_controller.py
+│
+├── router/                     # API routes
+│   ├── router.py
+│   └── *_router.py             # e.g., user_router.py
+│
+├── database/                   # DB connection and collections
 │   └── database.py
-├── main.py
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
+│
+├── main.py                     # Entry point of the application
+├── requirements.txt            # Python dependencies
+├── .env                        # Environment variables (Mongo URI, etc.)
+├── Dockerfile                  # Docker image instructions
+├── docker-compose.yml          # Docker multi-service config
+└── README.md                   # Project documentation
+
 

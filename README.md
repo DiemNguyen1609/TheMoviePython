@@ -37,22 +37,23 @@ Access localhost redocs: http://localhost:8000/redocs
 Pydantic is a data validation and settings management library.
 
 ## Project Structure
-project
-├── app
-│   ├── __init__.py
-├── model
+project/
+├── app/
+│   └── __init__.py
+├── model/
 │   ├── model.py
-│   ├── _*_model.py
-├── router
+│   └── *_model.py
+├── router/
 │   ├── router.py
-│   ├── _*router.py
-├── controller
+│   └── *_router.py
+├── controller/
 │   ├── controller.py
-│   ├── _*controller.py
-├── database
-│   ├── database.py
+│   └── *_controller.py
+├── database/
+│   └── database.py
 ├── main.py
 ├── Dockerfile
 ├── docker-compose.yml
-├── README.md
+├── requirements.txt
+└── README.md
 

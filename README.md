@@ -37,6 +37,7 @@ Access localhost redocs: http://localhost:8000/redocs
 Pydantic is a data validation and settings management library.
 
 ## Project Structure
+```bash
 project/
 ├── app/                        # Main app module
 │   └── __init__.py             # Makes app a package

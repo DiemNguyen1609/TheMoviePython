@@ -31,7 +31,7 @@ Access localhost url: mongodb://mongo:27017
 ## FastAPI
 FastAPI is a modern, fast (high performance), web framework for building APIs with Python 3.6+ based on starlette.
 Access localhost docs: http://localhost:8000/docs
-Access localhost redocs: http://localhost:8000/redocs
+Access localhost redocs: http://localhost:8000/redoc
 
 ## Pydantic
 Pydantic is a data validation and settings management library.

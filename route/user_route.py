@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from model.model import User
-from controller.controller import create_user, get_users, get_user, delete_user
+from model.user_model import User
+from controller.user_controller import create_user, get_users, get_user, delete_user
 
 router = APIRouter()
 

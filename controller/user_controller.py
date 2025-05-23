@@ -1,5 +1,5 @@
 from database.database import users_collection
-from model.model import User
+from model.user_model import User
 from bson import ObjectId
 
 def user_helper(user) -> dict:
